@@ -1,15 +1,20 @@
-# Python AST 入門ガイド（Qiita記事対応）
+# Python AST Guide
 
-このリポジトリは、Qiita記事  
-「Pythonの抽象構文木（AST）で安全な式評価とコード解析をしてみた」  
-で使用しているサンプルコード・ノートブックをまとめたものです。
+Pythonの抽象構文木（AST）を使って
+- コード解析
+- 安全な式評価
+- 自動コード変換  
+などを行う方法をまとめたノートです。
 
----
+## Files
 
-## 📘 Notebook（Google Colab対応）
+| Path | 説明 |
+|------|------|
+| `notebooks/python_ast_guide.ipynb` | Qiita記事で紹介したすべてのコード |
+| `src/safe_eval.py`                 | 安全な eval の実装 (ASTベース) |
 
-| 内容         | リンク |
-|--------------|---------|
-| AST入門ノート | ▶︎ https://colab.research.google.com/github/sakai-path/python-ast-guide/blob/main/notebooks/python_ast_guide.ipynb |
+## 使い方
 
-※実行する際は「ファイル → ドライブにコピー」で自分用に保存してください。
+```bash
+git clone https://github.com/your-name/your-repo.git
+cd your-repo
